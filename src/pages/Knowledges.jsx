@@ -1,10 +1,12 @@
 import React from 'react';
+import Navigation from '../components/Navigation';
 
 const Knowledges = () => {
     return (
-        <div>
-            Knowledges est ici
-        </div>
+        <>
+            <Navigation />
+            c est la competences
+        </>
     );
 };
 

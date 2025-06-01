@@ -1,10 +1,12 @@
 import React from 'react';
+import Navigation from '../components/Navigation';
 
 const NotFound = () => {
     return (
-        <div>
-            page notfound est ici
-        </div>
+        <>
+           <Navigation/>
+           c est la page not found
+        </>
     );
 };
 
