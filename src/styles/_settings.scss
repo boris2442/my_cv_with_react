@@ -5,9 +5,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Italianno&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nova+Round&family=Parkinsans:wght@300..800&family=Playwrite+HU:wght@100..400&family=Playwrite+PE+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 //font
-$font-1:'Nova Round', 'Playwrite PE Guides', 'Playwrite HU', 'Parkinsans', 'Italianno', 'Josefin Sans', 'Lato', 'Poppins', 'Roboto', sans-serif;
-$font-2:'Dosis', 'Nova Round', 'Playwrite PE Guides', 'Playwrite HU', 'Parkinsans', 'Italianno', 'Josefin Sans', 'Lato', 'Poppins', 'Roboto', sans-serif;
-$font-3:'Josefin Sans', 'Nova Round', 'Playwrite PE Guides', 'Playwrite HU', 'Parkinsans', 'Italianno', 'Lato', 'Poppins', 'Roboto', sans-serif;
+$font-1:'Nova Round', cursive;
+$font-2:'Dosis',  sans-serif;
+$font-3:'Josefin Sans', sans-serif;
 // colors
 $color-1: #2a1d52;
 $color-2: #6C77F4;
@@ -18,12 +18,48 @@ $white:#ddd;
 $black:#333;
 
 // border radius and shadow
-$border-radius: 25px;
+$borderRadius: 25px;
 $shadow:0 1px 3 #333;
-$min-height:95vh;
+$minHeight:95vh;
 
 @mixin verticalCenter{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+//reglages de bases
+*, ::after, ::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+  list-style-type: none;
+  text-decoration: none;
+}
+body{
+  margin: 1rem auto;
+  max-width: 1200px;
+  font-family: $font-1;
+  color:$black;
+}
+button{
+    
+    cursor: pointer;
+}
+a{
+    color:$black;
+}
+a:visited{
+    color:$black
+}
+.home, .knowledges, .porfolio, .contact, .contact{
+    display: flex;
+    @media screen and (max-width:850px){
+        display: block !important;
+    }
+}
+.homeContent, .knowledgesContent, .portfolioContent, .contactConent{
+    margin-left: .4rem;
+      @media screen and (max-width:850px){
+       margin-left: 0 !important;
+    }
 }
