@@ -7,7 +7,7 @@ import OtherSkills from '../components/knowledges/OtherSkills';
 
 const Knowledges = () => {
     return (
-        <div classNAme='knwolwdges'>
+        <div className='knwolwdges'>
             <Navigation />
             <div className="knowledgesContent">
                 <Languages />
