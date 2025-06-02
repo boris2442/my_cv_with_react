@@ -22,7 +22,7 @@
             font-family: $font-1;
             h1{
                 font-size: 5rem;
-                font-weight: 300;
+                font-weight: 300 !important;
                 color:$color-5;
                 text-shadow: 3px 6px 2px $black;
                 text-transform: uppercase;
