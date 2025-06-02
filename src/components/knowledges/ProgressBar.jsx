@@ -22,7 +22,7 @@ const ProgressBar = (props) => {
                                 <div className="progress">
                                     <div className="progressBarValue" style={{ width: progressBar }}></div>
                                 </div>
-                                {/* <span className="xp">{item.xp} ans</span>  */}
+                            
                             </div>
                         )
                     })
