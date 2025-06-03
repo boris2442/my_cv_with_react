@@ -45,7 +45,7 @@ export const portfolioData = [
     },
     {
         id: 5,
-        name: 'ipsum.com',
+        name: 'KamerBus',
         languages: ['javascript', 'css'],
         languagesIcons: ['fab fa-php', 'fab fa-css3-alt', 'fab fa-js'],
         source: 'https://github.com/boris2442/kamerBus',
@@ -55,28 +55,80 @@ export const portfolioData = [
         picture: './media/kamerbus.png'
     },
     {
-        id: 5,
-        name: 'ipsum.com',
+        id: 6,
+        name: 'Gestion Stock',
         languages: ['javascript', 'css'],
         languagesIcons: ['fab fa-php', 'fab fa-css3-alt', 'fab fa-js'],
         source: 'https://github.com/boris2442/kamerBus',
         info: `L’application Gestion de Stock est un outil web que j’ai développé pour permettre aux petites entreprises et commerçants de suivre efficacement leurs produits, entrées, sorties et niveaux de stock en temps réel.
 
-Développée avec PHP pour le traitement côté serveur, JavaScript pour les interactions dynamiques, et CSS pour un design propre et responsive, cette application permet d’automatiser les tâches courantes liées à la gestion des articles.
+     Développée avec PHP pour le traitement côté serveur, JavaScript pour les interactions dynamiques, et CSS pour un design propre et responsive, cette application permet d’automatiser les tâches courantes liées à la gestion des articles.
 
-  Fonctionnalités principales :
-Ajout, modification et suppression de produits.
+       Fonctionnalités principales :
+       Ajout, modification et suppression de produits.
 
-Suivi des entrées et sorties de stock.
+           Suivi des entrées et sorties de stock.
 
-Tableau de bord dynamique avec résumé des stocks disponibles, alertes de produits faibles, et statistiques.
+          Tableau de bord dynamique avec résumé des stocks disponibles, alertes de produits faibles, et statistiques.
 
-Recherche rapide de produits via un champ de recherche interactif.
+        Recherche rapide de produits via un champ de recherche interactif.
 
-Gestion des utilisateurs (si multi-utilisateur ou accès sécurisé).
+        Gestion des utilisateurs (si multi-utilisateur ou accès sécurisé).
 
-Interface responsive, accessible sur tout type d’appareil.`,
+        Interface responsive, accessible sur tout type d’appareil.`,
         picture: './media/gestionstock.png'
+    }
+    ,
+    {
+        id: 7,
+        name: 'gestion Events',
+        languages: ['javascript', 'css'],
+        languagesIcons: ['fab fa-php', 'fab fa-css3-alt', 'fab fa-js'],
+        source: 'https://github.com/boris2442/kamerBus',
+        info: `L’application Gestion de Stock est un outil web que j’ai développé pour permettre aux petites entreprises et commerçants de suivre efficacement leurs produits, entrées, sorties et niveaux de stock en temps réel.
+
+     Développée avec PHP pour le traitement côté serveur, JavaScript pour les interactions dynamiques, et CSS pour un design propre et responsive, cette application permet d’automatiser les tâches courantes liées à la gestion des articles.
+
+       Fonctionnalités principales :
+       Ajout, modification et suppression de produits.
+
+           Suivi des entrées et sorties de stock.
+
+          Tableau de bord dynamique avec résumé des stocks disponibles, alertes de produits faibles, et statistiques.
+
+        Recherche rapide de produits via un champ de recherche interactif.
+
+        Gestion des utilisateurs (si multi-utilisateur ou accès sécurisé).
+
+        Interface responsive, accessible sur tout type d’appareil.`,
+        picture: './media/event.png'
+    },{
+        id: 8,
+        name: 'Reservation en ligne',
+        languages: ['javascript', 'css', 'Php'],
+        languagesIcons: ['fab fa-php', 'fab fa-css3-alt', 'fab fa-js'],
+        source: 'https://github.com/boris2442/jekahome-reservation',
+        info: `Cette application de réservation en ligne a été développée pour simplifier la gestion des réservations dans divers secteurs (transport, hôtel, événements, etc.). Elle permet aux utilisateurs de consulter les disponibilités, réserver un service en quelques clics, et recevoir une confirmation instantanée.
+
+L’application repose sur une architecture dynamique avec PHP pour la logique serveur, JavaScript pour une navigation fluide et interactive, et CSS pour une interface moderne, claire et responsive.
+
+Fonctionnalités principales :
+Consultation des créneaux disponibles selon la date, l’heure ou la destination.
+
+Formulaire de réservation sécurisé et facile à utiliser.
+
+Système de confirmation automatique (notification ou email).
+
+Interface administrateur pour gérer les réservations, les disponibilités et les utilisateurs.
+
+Tableau de bord avec résumé des réservations en cours, passées et annulées.
+
+Affichage responsive pour une utilisation sur mobile et ordinateur.
+
+Ce projet m’a permis de maîtriser les systèmes de réservation en temps réel, la gestion de bases de données, ainsi que l’expérience utilisateur centrée sur la simplicité et l’efficacité.
+
+`,
+        picture: './media/reservation_en_ligne.png'
     }
 
 ]
