@@ -4,7 +4,7 @@ const OtherSkills = () => {
     return (
 
         <div className="otherSkills">
-            <h3>Autres competences</h3>
+            <h3>Autres compétences</h3>
             <div className="list">
                 <ul>
                     <li>

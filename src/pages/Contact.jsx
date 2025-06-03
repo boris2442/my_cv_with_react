@@ -12,19 +12,19 @@ const Contact = () => {
                     <h1>Contactez moi</h1>
                     <ul>
                        
-                        <li><i className="fas fa-mobile-alt"></i>
+                        <li><i className="fas fa-map-marker-alt "></i>
                            <span>Bafoussam</span>  
                         </li>
 
 
                         <li>
-                            <i className="fas fa-map-marker-alt"></i>
-                            <CopyToClipboard text="679135177">
+                            <i className="fas fa-mobile-alt"></i>
+                            <CopyToClipboard text=" (+237)679135177 / (+237) 694223503">
                                 <span
                                     className="clickInput"
                                     onClick={() => { alert('telephone copier') }}
                                 >
-                                    679135177
+                                    (+237)679135177 / (+237) 694223503
                                 </span>
                             </CopyToClipboard>
                         </li>

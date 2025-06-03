@@ -45,7 +45,7 @@ const Navigation = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="https://github/boris2442" target='_blank' rel="noopener noreferrer">
+                        <a href="https://github.com/boris2442" target='_blank' rel="noopener noreferrer">
                             <i className="fab fa-github"></i>
                         </a>
                     </li>
@@ -55,7 +55,7 @@ const Navigation = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="https://linkedin.com" target='_blank' rel="noopener noreferrer">
+                        <a href="https://codepen.io/Aubin-Boris-Simo-Tsebo" target='_blank' rel="noopener noreferrer">
                             <i className="fab fa-codepen"></i>
                         </a>
                     </li>
