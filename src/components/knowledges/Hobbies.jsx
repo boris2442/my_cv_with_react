@@ -10,8 +10,8 @@ const Hobbies = () => {
                     <span>Course a pied</span>
                 </li>
                 <li className='hobby'>
-                    <i className="fas fa-hikking"></i>
-                    <span>Randonees</span>
+                    <i className="fas fa-hiking"></i>
+                    <span>Randonées</span>
                 </li>
                 <li className='hobby'>
                     <i className="fas fa-seedling"></i>

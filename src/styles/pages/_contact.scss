@@ -106,7 +106,7 @@
                 padding: 0.7rem 0;
                 box-shadow: $shadow;
                 transform: scaleY(0);
-                transform-origin: top;
+                transform-origin: center;
                 transition:.2s ease;
                 transition: scale .1s;
                 &:hover{
@@ -120,19 +120,10 @@
             }
             //animation
             @mixin networkAnim($timeout){
-                // a{
-                //     animation: networkAnim $timeout ease-in-out forwards;
-                //     @keyframes networkAnim {
-                //         from {
-                //             transform: scaleY(0);
-                //         }
-                //         to {
-                //             transform: scaleY(1);
-                //         }
-                //     }
-                // }
+              
                 animation:pop 1s forwards;
                 animation-delay:$timeout;
+                animation-direction: bottom;
             }
             @keyframes pop{
                 to{

@@ -61,7 +61,7 @@ const Navigation = () => {
                     </li>
                 </ul>
                 <div className="signature">
-                    <p>Boris Code - 2025</p>
+              <p>Boris Code - {new Date().getFullYear()}</p>
                 </div>
             </div>
 
