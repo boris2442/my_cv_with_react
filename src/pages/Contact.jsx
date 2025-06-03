@@ -11,8 +11,9 @@ const Contact = () => {
                 <div className="contactBox">
                     <h1>Contactez moi</h1>
                     <ul>
+                       
                         <li><i className="fas fa-mobile-alt"></i>
-                            Bafoussam
+                           <span>Bafoussam</span>  
                         </li>
 
 
@@ -53,7 +54,7 @@ const Contact = () => {
                             <i className="fab fa-github"></i>
                         </a>
                         <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">
-                            <h4>Linkedin</h4>
+                            <h4>Twiter</h4>
                             <i className="fab fa-twiter"></i>
                         </a>
                         <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">

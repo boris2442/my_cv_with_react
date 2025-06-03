@@ -1,0 +1,92 @@
+.contactContent{
+    background: $color-3;
+    border-radius: $borderRadius;
+    width: 100%;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20% 45% 35%;
+    grid-template-areas: 
+      "1"
+      "2"
+      "3";
+      .header{
+        grid-area: 1;
+        width: 100%;
+        position: relative;
+        background: $color-1;
+        height: 340px;
+        &:before{
+            content:'';
+            position: absolute;
+            height: 100%;
+            width: inherit;
+            background: url(../../media/map.jpg) no-repeat center/ cover;
+            filter:grayscale(100%);
+        }
+        &:after{
+            content:'';
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 30px;
+            background: url(../../media/map.jpg) no-repeat center/ cover;
+        }
+      }
+      .contactBox{
+        grid-area: 2;
+        background: $color-5;
+        margin: 0 auto;
+        padding: 1rem 3rem;
+        z-index: 2;
+        border-radius: $borderRadius;
+        box-shadow: 0 3px 10px #333;
+        min-width: 440px;
+        min-height: 200px;
+        h1{
+            text-align: center;
+            margin: 0.3rem;
+            position: relative;
+            color:$color-2; 
+            &:after{
+                content: '';
+                position: absolute;
+                width: 50%;
+                height: 2px;
+                background: $color-1;
+                bottom: -10px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+        ul{
+            height: 72%;
+            width: inherit;
+            display: grid;
+            margin-top: 3.5rem;
+            li{
+                position: relative;
+            }
+            i{
+                font-size: 1.4rem;
+                position: absolute;
+                color:$color-2;
+                transform: translateY(2px);
+            }
+            span{
+                font-size: 1.4rem;
+                position: absolute;
+                transform: translateX(52px);
+                background: transparent;
+                border: none;
+                outline: none;
+                width: 350px;
+                transition:.2s ease;
+            }
+            .clickInput{
+                cursor: pointer;
+                transform:translateX(56px)
+            }
+        }
+      }
+}
