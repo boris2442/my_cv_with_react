@@ -59,7 +59,7 @@ export const portfolioData = [
         name: 'Gestion Stock',
         languages: ['javascript', 'css'],
         languagesIcons: ['fab fa-php', 'fab fa-css3-alt', 'fab fa-js'],
-        source: 'https://github.com/boris2442/kamerBus',
+        source: 'https://github.com/boris2442/gestion_stock',
         info: `L’application Gestion de Stock est un outil web que j’ai développé pour permettre aux petites entreprises et commerçants de suivre efficacement leurs produits, entrées, sorties et niveaux de stock en temps réel.
 
      Développée avec PHP pour le traitement côté serveur, JavaScript pour les interactions dynamiques, et CSS pour un design propre et responsive, cette application permet d’automatiser les tâches courantes liées à la gestion des articles.
@@ -84,7 +84,7 @@ export const portfolioData = [
         name: 'gestion Events',
         languages: ['javascript', 'css'],
         languagesIcons: ['fab fa-php', 'fab fa-css3-alt', 'fab fa-js'],
-        source: 'https://github.com/boris2442/kamerBus',
+        source: 'https://github.com/boris2442/gestion_events',
         info: `L’application Gestion de Stock est un outil web que j’ai développé pour permettre aux petites entreprises et commerçants de suivre efficacement leurs produits, entrées, sorties et niveaux de stock en temps réel.
 
      Développée avec PHP pour le traitement côté serveur, JavaScript pour les interactions dynamiques, et CSS pour un design propre et responsive, cette application permet d’automatiser les tâches courantes liées à la gestion des articles.
@@ -102,7 +102,8 @@ export const portfolioData = [
 
         Interface responsive, accessible sur tout type d’appareil.`,
         picture: './media/event.png'
-    },{
+    }
+    ,{
         id: 8,
         name: 'Reservation en ligne',
         languages: ['javascript', 'css', 'Php'],
@@ -112,24 +113,51 @@ export const portfolioData = [
 
 L’application repose sur une architecture dynamique avec PHP pour la logique serveur, JavaScript pour une navigation fluide et interactive, et CSS pour une interface moderne, claire et responsive.
 
-Fonctionnalités principales :
+ Fonctionnalités principales :
 Consultation des créneaux disponibles selon la date, l’heure ou la destination.
 
-Formulaire de réservation sécurisé et facile à utiliser.
+  Formulaire de réservation sécurisé et facile à utiliser.
 
-Système de confirmation automatique (notification ou email).
+  Système de confirmation automatique (notification ou email).
 
-Interface administrateur pour gérer les réservations, les disponibilités et les utilisateurs.
+   Interface administrateur pour gérer les réservations, les disponibilités et les utilisateurs.
 
-Tableau de bord avec résumé des réservations en cours, passées et annulées.
+ Tableau de bord avec résumé des réservations en cours, passées et annulées.
 
-Affichage responsive pour une utilisation sur mobile et ordinateur.
+ Affichage responsive pour une utilisation sur mobile et ordinateur.
 
-Ce projet m’a permis de maîtriser les systèmes de réservation en temps réel, la gestion de bases de données, ainsi que l’expérience utilisateur centrée sur la simplicité et l’efficacité.
+  Ce projet m’a permis de maîtriser les systèmes de réservation en temps réel, la gestion de bases de données, ainsi que l’expérience utilisateur centrée sur la simplicité et l’efficacité.
 
 `,
         picture: './media/reservation_en_ligne.png'
     }
 
+
+     ,{
+        id: 8,
+        name: 'Task Manager',
+        languages: ['javascript', 'css', 'Php'],
+        languagesIcons: ['fab fa-php', 'fab fa-css3-alt', 'fab fa-js'],
+        source: 'https://github.com/boris2442/jekahome-reservation',
+        info: `Le projet Task Manager est une application web conçue pour aider les utilisateurs à organiser, suivre et gérer leurs tâches quotidiennes de manière simple et efficace.
+
+Développée avec PHP pour la gestion côté serveur, JavaScript pour les interactions dynamiques, et CSS pour un design moderne et responsive, cette application offre une interface intuitive permettant de créer, modifier, classer et supprimer des tâches facilement.
+
+Fonctionnalités principales :
+Ajout de nouvelles tâches avec titres, descriptions et dates limites.
+
+Marquage des tâches comme terminées ou en cours.
+
+Organisation des tâches par catégories ou priorités.
+
+Recherche et filtrage rapide des tâches.
+
+Interface responsive, accessible depuis tout type d’appareil (ordinateur, tablette, smartphone).
+
+Notifications ou alertes pour les tâches proches de leur échéance (si implémenté).
+
+`,
+        picture: './media/task.png'
+    }
 ]
 

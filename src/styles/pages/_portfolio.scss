@@ -16,8 +16,8 @@
   .portfolioContent {
     // margin-top: 2rem;
     padding: 2rem;
-     background: $color-1;
-     border-radius: $borderRadius;
+    background: $color-1;
+    border-radius: $borderRadius;
     flex: 1;
     // =====================
     // 1. Filtres (radioDisplay)
@@ -88,10 +88,11 @@
         overflow: hidden;
         transition: transform 0.3s ease, box-shadow 0.3s ease;
 
-        // &:hover {
-        //   transform: translateY(-5px);
-        //   box-shadow: 0 4px 8px rgba($black, 0.1);
-        // }
+        &:hover {
+            transform: translateY(-5px);
+            //box-shadow: 0 4px 12px rgba($black, 0.1);
+         box-shadow: 0 4px 8px rgba($black, 0.1);
+         }
 
         // =====================
         // 2.1. Icônes de langages
@@ -131,6 +132,11 @@
           height: auto;
           display: block;
           cursor: pointer;
+          &:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Remplace $black par une couleur valide */
+            transition: transform 0.3s ease-in-out; /* On précise la propriété transform */
+          }
         }
 
         // =====================
