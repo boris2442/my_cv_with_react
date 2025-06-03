@@ -1,0 +1,36 @@
+.portfolio {
+  .portfolioContent {
+    width: 100%;
+    display: grid;
+    min-height: $minHeight;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 1fr;
+    grid-template-areas:
+      "1"
+      "2";
+  }
+  .radioDisplay {
+    grid-area: 1;
+    border-radius: $borderRadius;
+    display: flex;
+    width: 100%;
+    padding: 1rem 2rem;
+    margin: 0 auto;
+    background: $color-1;
+    user-select: none;
+    box-shadow: $shadow;
+    li {
+      color: $color-3;
+      font-size: 1.2rem;
+      padding: 0 1rem;
+      flex: 1;
+      text-transform: uppercase;
+      z-index: 2;
+      @include verticalCenter;
+      input[type="radio"] {
+        visibility: hidden;
+        position: relative ;
+      }
+    }
+  }
+}

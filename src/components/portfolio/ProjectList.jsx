@@ -1,11 +1,31 @@
-import React, { PureComponent } from 'react'
+import React, { Component } from 'react'
+import Project from './project';
+import { portfolioData } from '../data/PortfolioData';
+class ProjectList extends Component {
+    state = {
+        projects: portfolioData
+    };
 
-class ProjectList extends PureComponent {
-   
+
     render() {
+        let {projects}=this.state;
         return (
-            <div className="">
-                project
+            <div className='portfolioContent'>
+                <ul className="radioDisplay">
+
+                </ul>
+                <div className="projects">
+                    {
+                      
+                        projects.map(item=>{
+                            return(
+                                <Project
+                                key={item.id}
+                                item={item}/>
+                            )
+                        })
+                    }
+                </div>
             </div>
         )
     }
