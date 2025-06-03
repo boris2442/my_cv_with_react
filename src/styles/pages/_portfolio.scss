@@ -89,10 +89,10 @@
         transition: transform 0.3s ease, box-shadow 0.3s ease;
 
         &:hover {
-            transform: translateY(-5px);
-            //box-shadow: 0 4px 12px rgba($black, 0.1);
-         box-shadow: 0 4px 8px rgba($black, 0.1);
-         }
+          transform: translateY(-5px);
+          //box-shadow: 0 4px 12px rgba($black, 0.1);
+          box-shadow: 0 4px 8px rgba($black, 0.1);
+        }
 
         // =====================
         // 2.1. Icônes de langages
