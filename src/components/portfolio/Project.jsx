@@ -1,25 +1,25 @@
 import React, { Component } from 'react'
 
 class Project extends Component {
-    state={
-        showInfo:false
+    state = {
+        showInfo: false
     }
-    handleInfo=()=>{
+    handleInfo = () => {
         this.setState({
-            showInfo:!this.state.showInfo
+            showInfo: !this.state.showInfo
         })
     }
-handleExit=()=>{
-    this.setState({
-        showInfo:!this.state.showInfo
-    })
-}
+    handleExit = () => {
+        this.setState({
+            showInfo: !this.state.showInfo
+        })
+    }
     render() {
         const { name, languagesIcons, source, info, picture } = this.props.item
- 
+
         return (
-            <div className='' project>
-            
+            <div className='project' project>
+
                 <div className="icons">
                     {
                         languagesIcons.map(icon =>
@@ -33,7 +33,7 @@ handleExit=()=>{
                 <span className='infos' onClick={this.handleInfo}>
                     <i className="fas fa-plus-circle"></i>
                 </span>{
-                    this.state.showInfo &&(
+                    this.state.showInfo && (
                         <div className="showInfo">
                             <div className="infosContent">
                                 <div className="head">
