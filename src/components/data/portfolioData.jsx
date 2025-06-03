@@ -47,10 +47,36 @@ export const portfolioData = [
         id: 5,
         name: 'ipsum.com',
         languages: ['javascript', 'css'],
-        languagesIcons: ['fab fa-php', 'fab fa-css3-alt','fab fa-js'],
-        source: 'https://www.github/boris2442',
-        info: 'Plus loin sur le chemin, un vieux banc de bois était installé sous un chêne majestueux. Son bois usé portait les traces de nombreuses saisons, teinté d’un vert subtil dû à la mousse qui s’y était accrochée. On pouvait facilement s’y imaginer assis, le regard perdu dans l’horizon, tandis qu’une brise légère caressait le visage et que le murmure des arbres semblait chuchoter des histoires d’autrefois.',
-        picture: './media/animation.png'
+        languagesIcons: ['fab fa-php', 'fab fa-css3-alt', 'fab fa-js'],
+        source: 'https://github.com/boris2442/kamerBus',
+        info: `KamerBus est une application web conçue pour faciliter la réservation et la gestion des voyages en bus à travers le Cameroun. L’objectif principal est de digitaliser l’expérience de voyage, en permettant aux utilisateurs de consulter les horaires, choisir leur itinéraire, réserver leurs billets en ligne et recevoir une confirmation instantanée.
+
+        Développée avec PHP pour la gestion du côté serveur, CSS pour le design responsive et JavaScript pour l'interactivité, KamerBus offre une interface simple, fluide et intuitive aussi bien pour les voyageurs que pour les agences de transport.`,
+        picture: './media/kamerbus.png'
+    },
+    {
+        id: 5,
+        name: 'ipsum.com',
+        languages: ['javascript', 'css'],
+        languagesIcons: ['fab fa-php', 'fab fa-css3-alt', 'fab fa-js'],
+        source: 'https://github.com/boris2442/kamerBus',
+        info: `L’application Gestion de Stock est un outil web que j’ai développé pour permettre aux petites entreprises et commerçants de suivre efficacement leurs produits, entrées, sorties et niveaux de stock en temps réel.
+
+Développée avec PHP pour le traitement côté serveur, JavaScript pour les interactions dynamiques, et CSS pour un design propre et responsive, cette application permet d’automatiser les tâches courantes liées à la gestion des articles.
+
+  Fonctionnalités principales :
+Ajout, modification et suppression de produits.
+
+Suivi des entrées et sorties de stock.
+
+Tableau de bord dynamique avec résumé des stocks disponibles, alertes de produits faibles, et statistiques.
+
+Recherche rapide de produits via un champ de recherche interactif.
+
+Gestion des utilisateurs (si multi-utilisateur ou accès sécurisé).
+
+Interface responsive, accessible sur tout type d’appareil.`,
+        picture: './media/gestionstock.png'
     }
 
 ]
