@@ -49,15 +49,15 @@ const Contact = () => {
                             <h4>Linkedin</h4>
                             <i className="fab fa-linkedin"></i>
                         </a>
-                        <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">
-                            <h4>Linkedin</h4>
+                        <a href="https://github.com/boris2442" target="_blank" rel="noopener noreferrer">
+                            <h4>Github</h4>
                             <i className="fab fa-github"></i>
                         </a>
                         <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">
-                            <h4>Twiter</h4>
-                            <i className="fab fa-twiter"></i>
+                            <h4>Twitter</h4>
+                            <i className="fab fa-twitter"></i>
                         </a>
-                        <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://codepen.io/Aubin-Boris-Simo-Tsebo" target="_blank" rel="noopener noreferrer">
                             <h4>codepen</h4>
                             <i className="fab fa-codepen"></i>
                         </a>
