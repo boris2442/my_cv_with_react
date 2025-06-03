@@ -8,13 +8,16 @@
   // Forcer une hauteur minimale pour recouvrir l’écran
   min-height: $minHeight;
   padding: 2rem 1rem;
-  background: $color-2; // Couleur de fond assortie à la nav (adaptable)
+  //background: $color-2; // Couleur de fond assortie à la nav (adaptable)
   display: flex;
   align-items: flex-start;
   gap: 1rem;
 
   .portfolioContent {
-    margin-top: 2rem;
+    // margin-top: 2rem;
+    padding: 2rem;
+     background: $color-1;
+     border-radius: $borderRadius;
     flex: 1;
     // =====================
     // 1. Filtres (radioDisplay)

@@ -1,7 +1,10 @@
+
 .contactContent{
     background: $color-3;
+    margin-left: 1rem;
     border-radius: $borderRadius;
     width: 100%;
+    gap:1rem;
     overflow: hidden;
     display: grid;
     grid-template-columns: 1fr;

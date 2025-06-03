@@ -6,6 +6,7 @@
         min-height: 500px;
         overflow: hidden;
         position: relative;
+        border-radius: $borderRadius;
         &:after{
             content:'';
             position: absolute;
