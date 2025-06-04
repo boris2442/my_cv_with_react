@@ -5,6 +5,7 @@ import Contact from './pages/Contact';
 import Knowledges from './pages/Knowledges';
 import NotFound from './pages/NotFound';
 import Portfolio from './pages/Portfolio';
+import Footer from './components/Footer';
 function App() {
 
 
@@ -18,7 +19,7 @@ function App() {
         <Route path='*' element={<NotFound/>}/>
 
       </Routes>
-
+      <Footer />
     </>
   )
 }

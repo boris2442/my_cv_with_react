@@ -1,0 +1,17 @@
+footer{
+    background: $color-1;
+    color: $color-2;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: $borderRadius;
+    box-shadow: $shadow;
+    margin-top: 15px;
+    a {
+        color: $color-3;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
