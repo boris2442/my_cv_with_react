@@ -4,11 +4,13 @@ import ProjectList from '../components/portfolio/ProjectList';
 
 const Portfolio = () => {
     return (
-        <div className='portfolio'>
-         <Navigation/>
-         <ProjectList/>
-         
-        </div>
+        <section>
+            <div className='portfolio'>
+                <Navigation />
+                <ProjectList />
+
+            </div>
+        </section>
     );
 };
 

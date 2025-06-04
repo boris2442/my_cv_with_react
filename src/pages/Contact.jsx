@@ -4,6 +4,7 @@ import { CopyToClipboard } from 'react-copy-to-clipboard';
 
 const Contact = () => {
     return (
+        <section>
         <div className='contact'>
             <Navigation />
             <div className="contactContent">
@@ -66,6 +67,7 @@ const Contact = () => {
 
             </div>
         </div>
+        </section>
     );
 };
 
