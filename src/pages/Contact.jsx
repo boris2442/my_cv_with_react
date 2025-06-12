@@ -14,7 +14,7 @@ const Contact = () => {
                     <ul>
                        
                         <li><i className="fas fa-map-marker-alt "></i>
-                           <span>Bafoussam</span>  
+                           <span>Bafoussam - Yaounde -Cameroon</span>  
                         </li>
 
 
@@ -46,7 +46,7 @@ const Contact = () => {
 
                 <div className="socialNetwork">
                     <ul>
-                        <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/in/boris-aubin-simo-26b9a0369" target="_blank" rel="noopener noreferrer">
                             <h4>Linkedin</h4>
                             <i className="fab fa-linkedin"></i>
                         </a>
@@ -54,10 +54,10 @@ const Contact = () => {
                             <h4>Github</h4>
                             <i className="fab fa-github"></i>
                         </a>
-                        <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">
-                            <h4>Twitter</h4>
-                            <i className="fab fa-twitter"></i>
-                        </a>
+                         <a href="https://www.freecodecamp.org/fcc-bf9070d4-2429-4658-bf7d-70da5396e1d1" target="_blank" rel="noopener noreferrer">
+                            <h4>FreeCodeCamp</h4>
+                            <i className="fab fa-free-code-camp"></i>
+                        </a> 
                         <a href="https://codepen.io/Aubin-Boris-Simo-Tsebo" target="_blank" rel="noopener noreferrer">
                             <h4>codepen</h4>
                             <i className="fab fa-codepen"></i>
