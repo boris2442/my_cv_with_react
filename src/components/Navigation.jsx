@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 const Navigation = () => {
     return (
+
         <aside>
             <div className="sidebar">
                 <div className="id">
@@ -11,34 +12,36 @@ const Navigation = () => {
                     </div>
                 </div>
                 <div className="navigation">
-                    <nav>
-                        <ul>
-                            <li>
-                                <NavLink to='/' activeClasssName='navActive'>
-                                    <i className="fas fa-home"></i>
-                                    <span>Accueil</span>
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink to='/competences' activeClasssName='navActive'>
-                                    <i className="fas fa-mountain"></i>
-                                    <span>competences</span>
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink to='/portfolio' activeClasssName='navActive'>
-                                    <i className="fas fa-images"></i>
-                                    <span>Portfolio</span>
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink to='/contact' activeClasssName='navActive'>
-                                    <i className="fas fa-address-book"></i>
-                                    <span>Contact</span>
-                                </NavLink>
-                            </li>
-                        </ul>
-                    </nav>
+                    <header>
+                        <nav>
+                            <ul>
+                                <li>
+                                    <NavLink to='/' activeClasssName='navActive'>
+                                        <i className="fas fa-home"></i>
+                                        <span>Accueil</span>
+                                    </NavLink>
+                                </li>
+                                <li>
+                                    <NavLink to='/competences' activeClasssName='navActive'>
+                                        <i className="fas fa-mountain"></i>
+                                        <span>competences</span>
+                                    </NavLink>
+                                </li>
+                                <li>
+                                    <NavLink to='/portfolio' activeClasssName='navActive'>
+                                        <i className="fas fa-images"></i>
+                                        <span>Portfolio</span>
+                                    </NavLink>
+                                </li>
+                                <li>
+                                    <NavLink to='/contact' activeClasssName='navActive'>
+                                        <i className="fas fa-address-book"></i>
+                                        <span>Contact</span>
+                                    </NavLink>
+                                </li>
+                            </ul>
+                        </nav>
+                    </header>
                 </div>
                 <div className="socialNetwork">
                     <ul>
