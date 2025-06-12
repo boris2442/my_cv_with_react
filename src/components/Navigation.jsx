@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 const Navigation = () => {
     return (
+        <aside>
         <div className="sidebar">
             <div className="id">
                 <div className="idContent">
@@ -10,6 +11,7 @@ const Navigation = () => {
                 </div>
             </div>
             <div className="navigation">
+                <nav>
                 <ul>
                     <li>
                         <NavLink to='/' activeClasssName='navActive'>
@@ -36,11 +38,12 @@ const Navigation = () => {
                         </NavLink>
                     </li>
                 </ul>
+                </nav>
             </div>
             <div className="socialNetwork">
                 <ul>
                     <li>
-                        <a href="https://linkedin.com" target='_blank' rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/in/boris-aubin-simo-26b9a0369" target='_blank' rel="noopener noreferrer">
                             <i className="fab fa-linkedin"></i>
                         </a>
                     </li>
@@ -50,7 +53,7 @@ const Navigation = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="https://linkedin.com" target='_blank' rel="noopener noreferrer">
+                        <a href="" target='_blank' rel="noopener noreferrer">
                             <i className="fab fa-twitter"></i>
                         </a>
                     </li>
@@ -66,6 +69,7 @@ const Navigation = () => {
             </div>
 
         </div>
+        </aside>
     );
 };
 
