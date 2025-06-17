@@ -16,25 +16,36 @@ const Navigation = () => {
                         <nav>
                             <ul>
                                 <li>
-                                    <NavLink to='/' activeClasssName='navActive'>
+                                    <NavLink to='/'
+
+                                        className={({ isActive }) => isActive ? 'navActive' : ''}
+                                    >
                                         <i className="fas fa-home"></i>
                                         <span>Accueil</span>
                                     </NavLink>
                                 </li>
                                 <li>
-                                    <NavLink to='/competences' activeClasssName='navActive'>
+                                    <NavLink to='/competences'
+
+                                        className={({ isActive }) => isActive ? 'navActive' : ''}
+                                    >
                                         <i className="fas fa-mountain"></i>
                                         <span>competences</span>
                                     </NavLink>
                                 </li>
                                 <li>
-                                    <NavLink to='/portfolio' activeClasssName='navActive'>
+                                    <NavLink to='/portfolio'
+
+                                        className={({ isActive }) => isActive ? 'navActive' : ''}
+                                    >
                                         <i className="fas fa-images"></i>
                                         <span>Portfolio</span>
                                     </NavLink>
                                 </li>
                                 <li>
-                                    <NavLink to='/contact' activeClasssName='navActive'>
+                                    <NavLink to='/contact'
+                                        className={({ isActive }) => isActive ? 'navActive' : ''}
+                                    >
                                         <i className="fas fa-address-book"></i>
                                         <span>Contact</span>
                                     </NavLink>
