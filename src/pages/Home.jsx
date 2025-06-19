@@ -1,6 +1,9 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
-
+import Contact from '../pages/Contact';
+import Portfolio from '../pages/Portfolio';
+import Knowledges from '../pages/Knowledges';
+import NotFound from '../pages/NotFound';
 
 const Home = () => {
     return (
@@ -29,7 +32,12 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <Knowledges />
+            <Portfolio />
+            <Contact />
+
         </section>
+
     );
 };
 
