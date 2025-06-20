@@ -1,6 +1,7 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom'
 import Home from './pages/Home';
+// import Navigation from './components/Navigation';
 import Contact from './pages/Contact';
 import Knowledges from './pages/Knowledges';
 import NotFound from './pages/NotFound';
@@ -11,6 +12,7 @@ function App() {
 
   return (
     <>
+    {/* <Navigation/> */}
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/contact' element={<Contact/>}/>

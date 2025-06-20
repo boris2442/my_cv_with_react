@@ -11,6 +11,7 @@ const Knowledges = () => {
             <div className='knowledges'>
                 <Navigation />
                 <div className="knowledgesContent">
+              
                     <Languages />
                     <Experience />
                     <OtherSkills />

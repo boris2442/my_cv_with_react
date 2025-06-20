@@ -32,9 +32,9 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <Knowledges />
+            {/* <Knowledges />
             <Portfolio />
-            <Contact />
+            <Contact /> */}
 
         </section>
 
