@@ -40,15 +40,16 @@
         grid-area: 2;
         background: $color-5;
         margin: 0 auto;
-        padding: 1rem 3rem;
+        // padding: 1rem 3rem;
         z-index: 2;
         border-radius: $borderRadius;
         box-shadow: 0 3px 10px #333;
         min-width: 440px;
         min-height: 200px;
+ 
         h1{
             text-align: center;
-            margin: 0.3rem;
+            // margin: 0.3rem;
             position: relative;
             color:$color-2; 
             &:after{
@@ -69,6 +70,8 @@
             margin-top: 3.5rem;
             li{
                 position: relative;
+                       font-size: 12px !important;
+                       
             }
             i{
                 font-size: 1.4rem;
@@ -99,7 +102,10 @@
             display: flex;
             text-align: center;
             width: 100%;
+            
+         
             justify-content: space-around;
+            // flex-wrap: wrap;
             a{
                 width: 20%;
                 font-size: 1.2rem;
@@ -114,6 +120,7 @@
                 transition: scale .1s;
                 &:hover{
                     background:$color-1;
+                    color: $color-5;
                 }
                 i{
                     color: $color-2;

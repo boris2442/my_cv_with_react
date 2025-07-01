@@ -22,7 +22,7 @@
       left: 13%;
       font-family: $font-1;
       h1 {
-        font-size: 5rem;
+        font-size: 3rem;
         font-weight: 300 !important;
         color: $color-5;
         text-shadow: 3px 6px 2px $black;
@@ -40,7 +40,7 @@
           font-size: 1.5rem;
           background: $color-3;
           border-radius: $borderRadius;
-          padding: 1rem 2rem;
+          padding: 12px;
           box-shadow: 0 5px 1px rgb(15, 15, 15);
           &:hover {
             background: $color-4;

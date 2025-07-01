@@ -128,6 +128,7 @@
       grid-area: E;
       margin: 0 0 0.5rem 0.5rem;
       display: grid;
+      overflow: auto;
       grid-template-columns: 1fr;
       grid-template-rows: auto auto auto;
       grid-template-areas:
@@ -164,6 +165,7 @@
     .otherSkills {
       grid-area: O;
       margin-right: 0.5rem;
+       overflow: auto;
 
       .list {
         display: flex;

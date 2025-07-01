@@ -14,7 +14,7 @@ const Contact = () => {
                         <ul>
 
                             <li><i className="fas fa-map-marker-alt "></i>
-                                <span>Bafoussam - Yaounde -Cameroon</span>
+                                <span>Bafoussam -Cameroon</span>
                             </li>
 
 
