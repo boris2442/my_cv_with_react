@@ -1,6 +1,9 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
+import { Tooltip } from 'react-tooltip';
+import 'react-tooltip/dist/react-tooltip.css';  // N'oublie pas le CSS !
+
 
 const Contact = () => {
     return (
@@ -13,12 +16,39 @@ const Contact = () => {
                         <h1>Contactez moi</h1>
                         <ul>
 
-                            <li><i className="fas fa-map-marker-alt "></i>
-                                <span>Bafoussam -Cameroon</span>
+                            <li
+                                data-tooltip-id="locationTip"
+                                data-tooltip-content="Ou nous trouver ?"
+                                data-tooltip-place="top"
+                                data-tooltip-delay-show={50}
+                                data-tooltip-delay-hide={100}
+                                className="custom-tooltip"
+                            >
+                                <i className="fas fa-map-marker-alt"></i>
+                                <span>Bafoussam - Cameroon</span>
+
+                                <Tooltip
+                                    id="locationTip"
+                                    clickable={true}
+                                    maxWidth={320}
+                                    place="top"
+                                    delayShow={50}
+                                    delayHide={100}
+                                    style={{ zIndex: 9999 }}
+                                />
                             </li>
 
+                            <li
+                            
+                                data-tooltip-id="phoneTip"
+                                data-tooltip-content="Mes contact Téléphonique"
+                                data-tooltip-place="top"
+                                data-tooltip-delay-show={50}
+                                data-tooltip-delay-hide={100}
+                                className="custom-tooltip"
+                                
+                                >
 
-                            <li>
                                 <i className="fas fa-mobile-alt"></i>
                                 <CopyToClipboard text=" (+237)679135177 / (+237) 694223503">
                                     <span
@@ -28,8 +58,24 @@ const Contact = () => {
                                         (+237)679135177 / (+237) 694223503
                                     </span>
                                 </CopyToClipboard>
+                                <Tooltip
+                                    id="phoneTip"
+                                    clickable={true}
+                                    maxWidth={320}
+                                    place="top"
+                                    delayShow={50}
+                                    delayHide={100}
+                                    style={{ zIndex: 9999 }}
+                                />
                             </li>
-                            <li>
+                            <li
+                                data-tooltip-id="emailTip"
+                                data-tooltip-content="Mon adresse E-mail"
+                                data-tooltip-place="top"
+                                data-tooltip-delay-show={50}
+                                data-tooltip-delay-hide={100}
+                                className="custom-tooltip"
+                                >
                                 <i className="far fa-envelope"></i>
                                 <CopyToClipboard text="aubinborissimotsebo@gmail.com">
                                     <span
@@ -39,6 +85,15 @@ const Contact = () => {
                                         aubinborissimotsebo@gmail.com
                                     </span>
                                 </CopyToClipboard>
+                                <Tooltip
+                                    id="emailTip"
+                                    clickable={true}
+                                    maxWidth={320}
+                                    place="top"
+                                    delayShow={50}
+                                    delayHide={100}
+                                    style={{ zIndex: 9999 }}
+                                />
                             </li>
 
                         </ul>

@@ -10,10 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tippyjs/react": "^4.2.6",
     "react": "^19.1.0",
     "react-copy-to-clipboard": "^5.1.0",
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.6.1",
+    "react-tooltip": "^5.29.1",
     "sass": "^1.89.0"
   },
   "devDependencies": {
