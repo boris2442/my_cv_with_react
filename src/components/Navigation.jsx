@@ -1,5 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { Tooltip } from 'react-tooltip';
+import 'react-tooltip/dist/react-tooltip.css';  // N'oublie pas le CSS !
+import MyTooltip from '../components/tooltip/MyTooltip'; // Assure-toi que le chemin est correct
 const Navigation = () => {
     return (
 
@@ -57,24 +60,67 @@ const Navigation = () => {
                 <div className="socialNetwork">
                     <ul>
                         <li>
-                            <a href="https://www.linkedin.com/in/boris-aubin-simo-26b9a0369" target='_blank' rel="noopener noreferrer">
+                            <a
+                                data-tooltip-id="linkedinTip"
+                                data-tooltip-content="Mon profil linkedin "
+                                data-tooltip-place="top"
+                                data-tooltip-delay-show={50}
+                                data-tooltip-delay-hide={100}
+                                className="custom-tooltip"
+                                href="https://www.linkedin.com/in/boris-aubin-simo-26b9a0369" target='_blank' rel="noopener noreferrer">
                                 <i className="fab fa-linkedin"></i>
+                                <MyTooltip
+                                    id="linkedinTip"
+
+                                />
                             </a>
                         </li>
                         <li>
-                            <a href="https://github.com/boris2442" target='_blank' rel="noopener noreferrer">
+                            <a
+                                data-tooltip-id="githubTip"
+                                data-tooltip-content="Mon profil github "
+                                data-tooltip-place="top"
+                                data-tooltip-delay-show={50}
+                                data-tooltip-delay-hide={100}
+                                className="custom-tooltip"
+                                href="https://github.com/boris2442" target='_blank' rel="noopener noreferrer">
                                 <i className="fab fa-github"></i>
+                                <MyTooltip
+                                    id="githubTip"
+
+                                />
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.freecodecamp.org/fcc-bf9070d4-2429-4658-bf7d-70da5396e1d1" target="_blank" rel="noopener noreferrer">
+                            <a
+                                data-tooltip-id="freecodecampTip"
+                                data-tooltip-content="Mon profil freecodecamp "
+                                data-tooltip-place="top"
+                                data-tooltip-delay-show={50}
+                                data-tooltip-delay-hide={100}
+                                className="custom-tooltip"
+                                href="https://www.freecodecamp.org/fcc-bf9070d4-2429-4658-bf7d-70da5396e1d1" target="_blank" rel="noopener noreferrer">
 
                                 <i className="fab fa-free-code-camp"></i>
+                                <MyTooltip
+                                    id="freecodecampTip"
+
+                                />
                             </a>
                         </li>
                         <li>
-                            <a href="https://codepen.io/Aubin-Boris-Simo-Tsebo" target='_blank' rel="noopener noreferrer">
+                            <a
+                                data-tooltip-id="codepenTip"
+                                data-tooltip-content="Mon profil codepen "
+                                data-tooltip-place="top"
+                                data-tooltip-delay-show={50}
+                                data-tooltip-delay-hide={100}
+                                className="custom-tooltip"
+                                href="https://codepen.io/Aubin-Boris-Simo-Tsebo" target='_blank' rel="noopener noreferrer">
                                 <i className="fab fa-codepen"></i>
+                                <MyTooltip
+                                    id="codepenTip"
+                                />
                             </a>
                         </li>
                     </ul>
