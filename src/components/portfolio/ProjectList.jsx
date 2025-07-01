@@ -43,7 +43,8 @@ class ProjectList extends Component {
                                 return (
                                     <Project
                                         key={item.id}
-                                        item={item} />
+                                        item={item} 
+                                        />
                                 )
                             })
                     }

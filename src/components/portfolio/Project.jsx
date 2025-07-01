@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-
+import React, { Component } from 'react';
+import ScrollReveal from 'scrollreveal';
 class Project extends Component {
     state = {
         showInfo: false
