@@ -86,3 +86,12 @@
     display: block;
   }
 }
+.tooltip-custom {
+  z-index: 9999 !important;
+
+}
+@media screen and (max-width: 580px) {
+  .tooltip-custom {
+    max-width: 200px !important;
+  }
+}

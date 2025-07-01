@@ -8,7 +8,6 @@ const Portfolio = () => {
             <div className='portfolio'>
                 <Navigation />
                 <ProjectList />
-
             </div>
         </section>
     );

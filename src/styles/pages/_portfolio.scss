@@ -9,7 +9,7 @@
   min-height: $minHeight;
   padding: 2rem 1rem;
 
-  display: flex;
+   display: flex;
   align-items: flex-start;
   gap: 1rem;
 
@@ -261,6 +261,7 @@
     }
   }
   @media screen and (max-width: 850px) {
+   
     flex-direction: column;
     gap: 0;
   }
