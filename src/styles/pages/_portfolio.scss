@@ -15,7 +15,7 @@
 
   .portfolioContent {
     // margin-top: 2rem;
-    padding: 2rem;
+    padding: 2rem 0 0 0;
     background: $color-1;
     border-radius: $borderRadius;
     flex: 1;
@@ -278,3 +278,13 @@
     opacity: 1;
   }
 }
+@media screen and (max-width: 600px) {
+  .project {
+    width: 100%;
+  }
+}
+//  @media screen and (max-width: 850px) {
+//     .porfolioContent{
+//       padding:2rem 0 0 0 ;
+//     }
+//   }
