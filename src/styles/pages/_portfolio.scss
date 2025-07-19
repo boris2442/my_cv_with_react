@@ -9,7 +9,7 @@
   min-height: $minHeight;
   padding: 2rem 1rem;
 
-   display: flex;
+  display: flex;
   align-items: flex-start;
   gap: 1rem;
 
@@ -89,7 +89,7 @@
         transition: transform 0.3s ease, box-shadow 0.3s ease;
 
         &:hover {
-        //   transform: translateY(-5px);
+          //   transform: translateY(-5px);
           //box-shadow: 0 4px 12px rgba($black, 0.1);
           box-shadow: 0 4px 8px rgba($black, 0.1);
         }
@@ -128,8 +128,13 @@
         // 2.3. Image cliquable
         // =====================
         img {
+          // width: 100%;
+          // height: auto;
+          // display: block;
+          // cursor: pointer;
           width: 100%;
-          height: auto;
+          height: auto; // fixe ou dynamique
+          object-fit: cover; // ✅ évite les images étirées ou déformées
           display: block;
           cursor: pointer;
           &:hover {
@@ -261,7 +266,6 @@
     }
   }
   @media screen and (max-width: 850px) {
-   
     flex-direction: column;
     gap: 0;
   }
