@@ -10,7 +10,7 @@ const Home = () => {
         <section>
 
             <div className='home'>
-                <Navigation />
+                <Navigation /><br/>
                 <div className="homeContent">
                     <img className="responsive-img" src="../media/boriscode.jpg" alt="boris code" style={{
                         height: '200px',
@@ -22,7 +22,7 @@ const Home = () => {
                         left: '30%',
                         bottom: '30px',
                     }} />
-                    <div className="content"><br /><br /><br /><br />
+                    <div className="content"><br /><br /><br /><br /><br/><br/><br/>
                         <h1 >Boris Simo </h1>
                         {/* <h1>Boris code</h1> */}
                         <h2>Developpeur web</h2><br />
