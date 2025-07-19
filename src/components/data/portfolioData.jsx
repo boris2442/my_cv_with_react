@@ -103,7 +103,7 @@ export const portfolioData = [
         Interface responsive, accessible sur tout type d’appareil.`,
         picture: './media/event.png'
     }
-    ,{
+    , {
         id: 8,
         name: 'Reservation en ligne',
         languages: ['javascript', 'css', 'Php'],
@@ -133,31 +133,68 @@ Consultation des créneaux disponibles selon la date, l’heure ou la destinatio
     }
 
 
-     ,{
-        id: 8,
-        name: 'Task Manager',
-        languages: ['javascript', 'css', 'Php'],
-        languagesIcons: ['fab fa-php', 'fab fa-css3-alt', 'fab fa-js'],
-        source: 'https://github.com/boris2442/jekahome-reservation',
-        info: `Le projet Task Manager est une application web conçue pour aider les utilisateurs à organiser, suivre et gérer leurs tâches quotidiennes de manière simple et efficace.
+         , {
+            id: 9,
+            name: 'Task Manager',
+            languages: ['javascript', 'css', 'Php'],
+            languagesIcons: ['fab fa-php', 'fab fa-css3-alt', 'fab fa-js'],
+            source: 'https://github.com/boris2442/jekahome-reservation',
+            info: `Le projet Task Manager est une application web conçue pour aider les utilisateurs à organiser, suivre et gérer leurs tâches quotidiennes de manière simple et efficace.
 
-Développée avec PHP pour la gestion côté serveur, JavaScript pour les interactions dynamiques, et CSS pour un design moderne et responsive, cette application offre une interface intuitive permettant de créer, modifier, classer et supprimer des tâches facilement.
+    Développée avec PHP pour la gestion côté serveur, JavaScript pour les interactions dynamiques, et CSS pour un design moderne et responsive, cette application offre une interface intuitive permettant de créer, modifier, classer et supprimer des tâches facilement.
 
-Fonctionnalités principales :
-Ajout de nouvelles tâches avec titres, descriptions et dates limites.
+    Fonctionnalités principales :
+    Ajout de nouvelles tâches avec titres, descriptions et dates limites.
 
-Marquage des tâches comme terminées ou en cours.
+    Marquage des tâches comme terminées ou en cours.
 
-Organisation des tâches par catégories ou priorités.
+    Organisation des tâches par catégories ou priorités.
 
-Recherche et filtrage rapide des tâches.
+    Recherche et filtrage rapide des tâches.
 
-Interface responsive, accessible depuis tout type d’appareil (ordinateur, tablette, smartphone).
+    Interface responsive, accessible depuis tout type d’appareil (ordinateur, tablette, smartphone).
 
-Notifications ou alertes pour les tâches proches de leur échéance (si implémenté).
+    Notifications ou alertes pour les tâches proches de leur échéance (si implémenté).
+
+    `,
+            picture: './media/task.png'
+         }
+    ,
+    {
+        id: 10,
+        name: 'CAMPUSPAY',
+        languages: ['Laravel', 'Tailwind CSS', 'Alpine.JS', 'JavaScript'],
+        languagesIcons: ['fa-brands fa-laravel', 'fab fa-css3-alt', 'fa-solid fa-mountain', 'fab fa-js'],
+        source: 'https://github.com/boris2442/stage_project_dqp.git',
+        info: `CAMPUSPAY est une application web de gestion centralisée des frais universitaires, conçue pour automatiser les paiements, améliorer le suivi financier et simplifier les interactions entre les étudiants, les comptables et l’administration universitaire.
 
 `,
-        picture: './media/task.png'
+        picture: './media/dashbadmin.png'
     }
+    ,
+    {
+        id: 11,
+        name: 'CAMPUSPAY3',
+        languages: ['Laravel', 'css', 'Alpine.JS', 'JavaScript'],
+        languagesIcons: ['fa-brands fa-laravel', 'fab fa-css3-alt', 'fa-solid fa-mountain', 'fab fa-js'],
+        source: 'https://github.com/boris2442/stage_project_dqp.git',
+        info: `CAMPUSPAY est une application web de gestion centralisée des frais universitaires, conçue pour automatiser les paiements, améliorer le suivi financier et simplifier les interactions entre les étudiants, les comptables et l’administration universitaire.
+
+`,
+        picture: './media/dashbadmin.png'
+    }
+    ,
+    {
+        id: 12,
+        name: 'CAMPUSPAY4',
+        languages: ['Laravel', 'css', 'Alpine.JS', 'JavaScript'],
+        languagesIcons: ['fa-brands fa-laravel', 'fab fa-css3-alt', 'fa-solid fa-mountain', 'fab fa-js'],
+        source: 'https://github.com/boris2442/stage_project_dqp.git',
+        info: `CAMPUSPAY est une application web de gestion centralisée des frais universitaires, conçue pour automatiser les paiements, améliorer le suivi financier et simplifier les interactions entre les étudiants, les comptables et l’administration universitaire.
+
+`,
+        picture: './media/dashbadmin.png'
+    }
+
 ]
 
