@@ -186,14 +186,14 @@ Consultation des créneaux disponibles selon la date, l’heure ou la destinatio
     ,
     {
         id: 12,
-        name: 'CAMPUSPAY',
-        languages: ['Laravel', 'css', 'Alpine.JS', 'JavaScript'],
-        languagesIcons: ['fa-brands fa-laravel', 'fab fa-css3-alt', 'fa-solid fa-mountain', 'fab fa-js'],
+        name: 'Disgramme de classe',
+        languages: ['Power AMC', 'Draw.io'],
+        languagesIcons: ['fas fa-tools', 'fas fa-project-diagram'],
         source: 'https://github.com/boris2442/stage_project_dqp.git',
-        info: `CAMPUSPAY est une application web de gestion centralisée des frais universitaires, conçue pour automatiser les paiements, améliorer le suivi financier et simplifier les interactions entre les étudiants, les comptables et l’administration universitaire.
+        info: `Le diagramme de classe de l’application CAMPUSPAY a été conçu avec Power AMC et Draw.io, en suivant les principes de la modélisation orientée objet. Il structure de manière claire les différentes entités du système, leurs attributs, méthodes, et les relations entre elles.
 
 `,
-        picture: './media/dashbadmin.png'
+        picture: './media/diagrammme_classe.png'
     }
 
 ]
