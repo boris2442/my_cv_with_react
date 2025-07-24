@@ -10,8 +10,8 @@ const Navigation = () => {
             <div className="sidebar">
                 <div className="id">
                     <div className="idContent">
-                        <img src="./media/boriscode.jpg" alt="profil de boris code" />
-                        <h3>Boris Code</h3>
+                        <img src="./media/boriscode.jpg" alt="profil de boris code" /><br/>
+                        <h3>Boris SIMO</h3>
                     </div>
                 </div>
                 <div className="navigation">
