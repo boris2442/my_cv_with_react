@@ -16,8 +16,10 @@
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.6.1",
     "react-tooltip": "^5.29.1",
+    "react-tsparticles": "^2.12.2",
     "sass": "^1.89.0",
-    "scrollreveal": "^4.0.9"
+    "scrollreveal": "^4.0.9",
+    "tsparticles": "^3.8.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",

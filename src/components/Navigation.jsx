@@ -11,7 +11,7 @@ const Navigation = () => {
                 <div className="id">
                     <div className="idContent">
                         <img src="./media/boriscode.jpg" alt="profil de boris code" /><br/>
-                        <h3>Boris SIMO</h3>
+                        <h3>AUBIN SIMO</h3>
                     </div>
                 </div>
                 <div className="navigation">
@@ -125,7 +125,7 @@ const Navigation = () => {
                         </li>
                     </ul>
                     <div className="signature">
-                        <p>Boris Code - {new Date().getFullYear()}</p>
+                        <p>AUBIN SIMO - {new Date().getFullYear()}</p>
                     </div>
                 </div>
 

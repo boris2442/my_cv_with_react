@@ -7,12 +7,14 @@ import Knowledges from './pages/Knowledges';
 import NotFound from './pages/NotFound';
 import Portfolio from './pages/Portfolio';
 import Footer from './components/Footer';
+import ParticlesBackground from './components/particulesjs/ParticlesBackground';
 function App() {
 
 
   return (
     <>
     {/* <Navigation/> */}
+    {/* <ParticlesBackground /> */}
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/contact' element={<Contact/>}/>
