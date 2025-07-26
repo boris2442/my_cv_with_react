@@ -11,6 +11,7 @@
   grid-template-columns: 1fr;
   grid-template-rows: 250px 1fr 108px;
   grid-template-areas: "1", "2", "3";
+//   margin-left: 40px;
   .id {
     grid-area: 1;
     text-align: center;
@@ -57,7 +58,7 @@
           color: $color-5;
         }
         .navActive {
-          color: $color-4;
+          color: $color-2;
         }
         i {
           position: absolute;
@@ -128,6 +129,7 @@
     min-height: 50px;
     margin-bottom: 0.2rem;
     width: 100vw;
+    // margin: 10px;
     .id,
     .socialNetwork {
       display: none;

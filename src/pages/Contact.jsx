@@ -37,7 +37,7 @@ const Contact = () => {
                             <li
 
                                 data-tooltip-id="phoneTip"
-                                data-tooltip-content="Mes contact Téléphonique"
+                                data-tooltip-content="Mes contacts Téléphoniques cliquez pour copier!"
                                 data-tooltip-place="top"
                                 data-tooltip-delay-show={50}
                                 data-tooltip-delay-hide={100}
@@ -61,7 +61,7 @@ const Contact = () => {
                             </li>
                             <li
                                 data-tooltip-id="emailTip"
-                                data-tooltip-content="Mon adresse E-mail"
+                                data-tooltip-content="Mon adresse E-mail cliquez pour copier!"
                                 data-tooltip-place="top"
                                 data-tooltip-delay-show={50}
                                 data-tooltip-delay-hide={100}

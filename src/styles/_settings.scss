@@ -8,14 +8,23 @@
 $font-1: "Nova Round", cursive;
 $font-2: "Dosis", sans-serif;
 $font-3: "Josefin Sans", sans-serif;
-// colors
-$color-1: #2a1d52;
-$color-2: #6c77f4;
-$color-3: rgb(99, 164, 233);
-$color-4: #4fedd2;
-$color-5: #36d0ea;
-$white: #ddd;
-$black: #333;
+// // colors
+// $color-1: #2a1d52;
+// $color-2: #6c77f4;
+// $color-3: rgb(99, 164, 233);
+// $color-4: #4fedd2;
+// $color-5: #36d0ea;
+// $white: #ddd;
+// $black: #333;
+// couleurs pro
+$color-1: #1e3a8a; // Bleu profond (header, hover)
+$color-2: #3b82f6; // Bleu clair (titres, icônes)
+$color-3: #f3f4f6; // Gris clair (fond principal)
+$color-4: #111827; // Gris très foncé (texte foncé, zones sombres)
+$color-5: #ffffff; // Blanc (contenu, cartes)
+
+$white: #ffffff; // Fond clair
+$black: #000000; // Contraste fort
 
 // border radius and shadow
 $borderRadius: 25px;

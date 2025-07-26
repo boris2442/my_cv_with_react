@@ -21,6 +21,17 @@
       background: $color-2;
       border-radius: $borderRadius;
       padding: 0.8rem;
+      color: $color-5;
+      ul {
+        flex-direction: column;
+        display: flex;
+        gap: 10px;
+        i {
+          font-size: 20px;
+          margin-right: 0.5rem;
+          color: $color-5;
+        }
+      }
     }
 
     // Titres h3
