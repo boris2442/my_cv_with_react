@@ -26,7 +26,7 @@ const Contact = () => {
                                 className="custom-tooltip"
                             >
                                 <i className="fas fa-map-marker-alt"></i>
-                                <span>Bafoussam - Cameroon</span>
+                                <span>Yaoundé - Bafoussam - Cameroon</span>
 
                                 <MyTooltip
                                     id="locationTip"
