@@ -12,7 +12,7 @@ const Home = () => {
             <div className='home'>
                 <Navigation /><br />
                 <div className="homeContent">
-                    <img className="responsive-img" src="../media/boris-code-237.jpg" alt="boris simo aubin" style={{
+                    <img className="responsive-img" src="../media/boris-code-237.jpg" alt="boris simo aubin tsebo" style={{
                         height: '200px',
                         width: '200px',
                         borderRadius: '50%',

@@ -10,7 +10,7 @@ const Navigation = () => {
             <div className="sidebar">
                 <div className="id">
                     <div className="idContent">
-                        <img src="./media/boris-code-237.jpg" alt="profil de boris aubin Simo Tsebo" /><br/>
+                        <img src="./media/boris-code-237.jpg" alt=" boris aubin Simo Tsebo" /><br />
                         <h3>AUBIN SIMO</h3>
                     </div>
                 </div>
