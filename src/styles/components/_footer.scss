@@ -1,17 +1,39 @@
+// footer {
+
+//   color: $white;
+//   padding: 20px;
+//   text-align: center;
+//   font-size: 14px;
+//   border-radius: $borderRadius;
+//   box-shadow: $shadow;
+//   margin-top: 15px;
+//   a {
+//     color: $color-3;
+//     text-decoration: none;
+//     &:hover {
+//       text-decoration: underline;
+//     }
+//   }
+// }
+
+
 footer {
-  // background: $color-1;
-  color: $white;
+  //background: $color-4; // fond très foncé (propre au mode sombre)
+  color: $white;         // texte blanc cassé (lisible et doux)
   padding: 20px;
   text-align: center;
   font-size: 14px;
   border-radius: $borderRadius;
   box-shadow: $shadow;
   margin-top: 15px;
+
   a {
-    color: $color-3;
+    color: $color-2; // bleu clair pour les liens (meilleure lisibilité)
     text-decoration: none;
+
     &:hover {
-      text-decoration: underline;
+      color: $white; // au hover, on revient au texte blanc
+      // text-decoration: underline;
     }
   }
 }

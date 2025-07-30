@@ -1,11 +1,6 @@
 // _portfolio.scss
 
-// ---------------------------------------------
-// Portfolio (Portfolio.jsx / ProjectList.jsx)
-// ---------------------------------------------
-
 .portfolio {
-  // Forcer une hauteur minimale pour recouvrir l’écran
   min-height: $minHeight;
   padding: 2rem 1rem;
   display: flex;
@@ -13,14 +8,11 @@
   gap: 1rem;
 
   .portfolioContent {
-    // margin-top: 2rem;
     padding: 2rem 0 0 0;
-    background: $color-1;
+    background: $color-1;      // bleu très foncé (fond)
     border-radius: $borderRadius;
     flex: 1;
-    // =====================
-    // 1. Filtres (radioDisplay)
-    // =====================
+
     .radioDisplay {
       display: flex;
       justify-content: flex-start;
@@ -36,7 +28,7 @@
           appearance: none;
           width: 1rem;
           height: 1rem;
-          border: 2px solid $color-5;
+          border: 2px solid $color-5;   // blanc cassé bordure
           border-radius: 50%;
           margin-right: 0.5rem;
           position: relative;
@@ -44,58 +36,46 @@
           transition: background 0.2s ease;
 
           &:checked {
-            background: $color-5;
+            background: $color-5;        // fond blanc cassé
           }
         }
 
         label {
           font-family: $font-2;
           font-size: 1rem;
-          color: $color-1;
+          color: $color-1;              // bleu foncé pour texte
           cursor: pointer;
           text-transform: capitalize;
         }
       }
     }
 
-    // =====================
-    // 2. Grille de projets
-    // =====================
     .projects {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 2rem;
 
-      // 2 colonnes sous 950px
       @media screen and (max-width: 950px) {
         grid-template-columns: repeat(2, 1fr);
         gap: 1.5rem;
       }
-
-      // 1 colonne sous 600px
       @media screen and (max-width: 600px) {
         grid-template-columns: 1fr;
         gap: 1rem;
       }
 
-      // Chaque carte "Project"
       .project {
         position: relative;
-        background: $white;
+        background: $white;          // blanc cassé pour carte
         border-radius: $borderRadius;
         box-shadow: $shadow;
         overflow: hidden;
         transition: transform 0.3s ease, box-shadow 0.3s ease;
 
         &:hover {
-          //   transform: translateY(-5px);
-          //box-shadow: 0 4px 12px rgba($black, 0.1);
-          box-shadow: 0 4px 8px rgba($black, 0.1);
+          box-shadow: 0 4px 8px rgba($black, 0.1);  // ombre légère
         }
 
-        // =====================
-        // 2.1. Icônes de langages
-        // =====================
         .icons {
           display: flex;
           gap: 0.7rem;
@@ -103,55 +83,43 @@
 
           i {
             font-size: 1.2rem;
-            color: $color-1;
+            color: $color-1;          // bleu foncé
             transition: color 0.2s ease;
 
             &:hover {
-              color: $color-2;
+              color: $color-2;        // bleu clair au hover
             }
           }
         }
 
-        // =====================
-        // 2.2. Titre du projet
-        // =====================
         h3 {
           font-family: $font-3;
           font-size: 1.4rem;
-          color: $color-1;
+          color: $color-1;            // bleu foncé titre
           margin: 0.5rem 1rem;
           text-transform: capitalize;
         }
 
-        // =====================
-        // 2.3. Image cliquable
-        // =====================
         img {
-          // width: 100%;
-          // height: auto;
-          // display: block;
-          // cursor: pointer;
           width: 100%;
-          height: auto; // fixe ou dynamique
-          object-fit: cover; // ✅ évite les images étirées ou déformées
+          height: auto;
+          object-fit: cover;
           display: block;
           cursor: pointer;
+
           &:hover {
             transform: scale(1.1);
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Remplace $black par une couleur valide */
-            transition: transform 0.3s ease-in-out; /* On précise la propriété transform */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
           }
         }
 
-        // =====================
-        // 2.4. Bouton “infos” (+)
-        // =====================
         .infos {
           position: absolute;
           top: 1rem;
           right: 1rem;
-          background: $color-5;
-          color: $color-1;
+          background: $color-5;        // blanc cassé bouton
+          color: $color-1;             // bleu foncé texte bouton
           width: 2rem;
           height: 2rem;
           border-radius: 50%;
@@ -164,16 +132,8 @@
           i {
             font-size: 1rem;
           }
-
-          //   &:hover {
-          //     background: $color-5;
-          //     transform: scale(1.1);
-          //   }
         }
 
-        // =====================
-        // 2.5. Overlay “showInfo” avec scale
-        // =====================
         .showInfo {
           position: fixed;
           top: 0;
@@ -196,7 +156,6 @@
             overflow-y: auto;
             position: relative;
 
-            // Animation d’apparition
             transform: scale(0.7);
             opacity: 0;
             animation: scaleUp 0.3s ease-out forwards;
@@ -210,7 +169,7 @@
               h2 {
                 font-family: $font-3;
                 font-size: 1.6rem;
-                color: $color-1;
+                color: $color-1;        // bleu foncé titre
                 margin: 0;
                 text-transform: capitalize;
               }
@@ -227,7 +186,7 @@
                   transition: background 0.2s ease;
 
                   &:hover {
-                    background:$color-2;
+                    background: $color-2;
                   }
                 }
               }
@@ -236,7 +195,7 @@
             p {
               font-size: 1rem;
               line-height: 1.5;
-              color: $black;
+              color: $black;            // texte noir pour contenu
               margin-bottom: 2rem;
             }
 
@@ -270,20 +229,15 @@
   }
 }
 
-// Keyframes pour l’effet scale
 @keyframes scaleUp {
   to {
     transform: scale(1);
     opacity: 1;
   }
 }
+
 @media screen and (max-width: 600px) {
   .project {
     width: 100%;
   }
 }
-//  @media screen and (max-width: 850px) {
-//     .porfolioContent{
-//       padding:2rem 0 0 0 ;
-//     }
-//   }

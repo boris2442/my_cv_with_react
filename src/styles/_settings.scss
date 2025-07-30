@@ -17,16 +17,27 @@ $font-3: "Josefin Sans", sans-serif;
 // $white: #ddd;
 // $black: #333;
 // couleurs pro
-$color-1: #1e3a8a; // Bleu profond (header, hover)
-$color-2: #3b82f6; // Bleu clair (titres, icônes)
-$color-3: #f3f4f6; // Gris clair (fond principal)
-$color-4: #111827; // Gris très foncé (texte foncé, zones sombres)
-$color-5: #ffffff; // Blanc (contenu, cartes)
+// $color-1: #1e3a8a; 
+// $color-2: #3b82f6; 
+// $color-3: #f3f4f6; 
+// $color-4: #111827; 
+// $color-5: #ffffff;
 
-$white: #ffffff; // Fond clair
-$black: #000000; // Contraste fort
+// $white: #ffffff;
+// $black: #000000; 
+$color-1: #0f172a;  // Bleu très foncé, presque noir, pour header et hover (plus sobre que #1e3a8a)
+//$color-2: #3b82f6;  // Bleu clair vif, parfait pour titres et icônes (garde ta couleur ici)
+$color-2: #30415e;  // Bleu clair vif, parfait pour titres et icônes (garde ta couleur ici)
+$color-3: #1e293b;  // Gris bleu sombre, pour fond principal (plus doux que #f3f4f6)
+$color-4: #0f172a;  // Gris très foncé / presque noir, pour texte foncé, zones sombres (comme $color-1)
+$color-5: #e0e7ff;  // Blanc cassé / bleu très clair, pour contenu, cartes, texte clair (moins dur que blanc pur)
 
-// border radius and shadow
+$white: #e0e7ff;    // blanc cassé pour fonds clairs (remplace #ffffff pour moins agressif)
+$black: #000000;    // noir pur pour contraste fort (garde)
+
+
+
+
 $borderRadius: 25px;
 $shadow: 0 1px 3 #333;
 $minHeight: 95vh;
@@ -36,7 +47,7 @@ $minHeight: 95vh;
   justify-content: center;
   align-items: center;
 }
-//reglages de bases
+
 *,
 ::after,
 ::before {
@@ -46,37 +57,95 @@ $minHeight: 95vh;
   list-style-type: none;
   text-decoration: none;
 }
+
+// body {
+//   margin: 1rem auto;
+//   max-width: 1200px;
+//   font-family: $font-1;
+//   color: $black;
+//   background-color: $color-1;
+// }
+// button {
+//   cursor: pointer;
+// }
+// a {
+//   color: $black;
+// }
+// a:visited {
+//   color: $black;
+// }
+// .home,
+// .knowledges,
+// .porfolio,
+// .contact,
+// .contact {
+//   display: flex;
+//   @media screen and (max-width: 850px) {
+//     display: block !important;
+//   }
+// }
+// .homeContent,
+// .knowledgesContent,
+// .portfolioContent,
+// .contactConent {
+//   margin-left: 0.4rem;
+//   @media screen and (max-width: 850px) {
+//     margin-left: 0 !important;
+//   }
+// }
+
+
+
 body {
   margin: 1rem auto;
   max-width: 1200px;
   font-family: $font-1;
-  color: $black;
-  background-color: $color-1;
+  color: $color-5;            // texte clair (blanc cassé)
+  background-color: $color-3; // fond gris bleu sombre
 }
+
+a {
+  color: $color-2; // bleu clair
+}
+a:hover,
+a:focus {
+  color: $color-1; // bleu foncé plus saturé au hover
+}
+
 button {
+  background-color: $color-1;  // bleu très foncé
+  color: $color-5;             // texte clair
+  border-radius: $borderRadius;
+  box-shadow: $shadow;
+  border: none;
+  padding: 0.6rem 1.2rem;
+}
+button:hover {
+  background-color: $color-2;  // bleu clair au hover
   cursor: pointer;
 }
-a {
-  color: $black;
-}
-a:visited {
-  color: $black;
-}
+
 .home,
 .knowledges,
 .porfolio,
-.contact,
 .contact {
   display: flex;
+  background-color: $color-4; // gris très foncé pour sections
+  border-radius: $borderRadius;
+  box-shadow: $shadow;
+  padding: 1rem;
+  color: $color-5;             // texte clair dans sections
   @media screen and (max-width: 850px) {
     display: block !important;
   }
 }
+
 .homeContent,
 .knowledgesContent,
 .portfolioContent,
 .contactConent {
   margin-left: 0.4rem;
+  color: $color-5;             // texte clair
   @media screen and (max-width: 850px) {
     margin-left: 0 !important;
   }
