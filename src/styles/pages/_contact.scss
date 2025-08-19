@@ -207,13 +207,13 @@
     h1 {
       text-align: center;
       position: relative;
-      color: $color-2; // bleu clair
+      color: $color-5; // bleu clair
       &:after {
         content: "";
         position: absolute;
         width: 50%;
         height: 2px;
-        background: $color-1; // ligne décorative bleu foncé
+        background: $color-2; // ligne décorative bleu foncé
         bottom: -10px;
         left: 50%;
         transform: translateX(-50%);
